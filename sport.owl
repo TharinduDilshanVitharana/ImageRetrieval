@@ -1,0 +1,1080 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#"
+     xml:base="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#areQuantized -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#areQuantized">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quantization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#associatedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#associatedWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#connectedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#connectedWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Preposition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#consistedOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#consistedOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Image"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Sport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#engageIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#engageIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#hasA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#hasA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quality"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#takesPlace -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#takesPlace">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Adjectives -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Adjectives">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Preposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Articles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Articles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quantization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Auto-RacingGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Auto-RacingGame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Sport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BallGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BallGame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Sport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BatAndBall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BatAndBall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BallGame"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BoardGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BoardGame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Sport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#ClubAndBall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#ClubAndBall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BallGame"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quality"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Direction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Direction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Preposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Image"/>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#InDoor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#InDoor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Location"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#OutDoor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Material">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Numerical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Numerical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quantization"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#OutDoor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#OutDoor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Location"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Preposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Preposition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quantization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quantization"/>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RacquetGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RacquetGame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Sport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RelativePlace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RelativePlace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Preposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Sport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Sport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#TargetGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#TargetGame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BallGame"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Preposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#2GoalGame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#2GoalGame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BallGame"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Articles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#an -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#an">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Articles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#at -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#at">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Time"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#badminton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#badminton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RacquetGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#ball -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#ball">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#baseball -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#baseball">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BatAndBall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#baseball_bat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#baseball_bat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#basketball -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#basketball">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#2GoalGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#bat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#bat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#batter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#batter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#beach -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#beach">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#OutDoor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#beautiful -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#beautiful">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Adjectives"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#behind -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#behind">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RelativePlace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#between -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#between">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RelativePlace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#black -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#black">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#blue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#blue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#bowling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#bowling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#TargetGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#boy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#boy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+        <areQuantized rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#two"/>
+        <engageIn rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#throw"/>
+        <engageIn rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#wear"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#by -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#by">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Agent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#child -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#child">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#cricket -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#cricket">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BatAndBall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#fence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#fence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#five -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#five">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Numerical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#formula_one -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#formula_one">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Auto-RacingGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#four -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#four">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Numerical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#frisbeeDisc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#frisbeeDisc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#girl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#girl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#gloves -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#gloves">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#golf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#golf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#ClubAndBall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#green -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#green">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#helmet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#helmet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#hit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#hit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#house -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#house">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#InDoor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#in -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#in">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RelativePlace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#inside -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#inside">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RelativePlace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#into -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#into">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Direction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#little -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#little">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Adjectives"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#man -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#man">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#many -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#many">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Articles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#metallic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#metallic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#motoGP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#motoGP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Auto-RacingGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#net -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#net">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#on -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#on">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RelativePlace"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#one -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#one">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Numerical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#park -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#park">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#OutDoor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#pink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#pink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#pitcher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#pitcher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#plastic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#plastic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#play -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#play">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#player -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#player">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#playground -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#playground">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#OutDoor"/>
+        <hasA rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#green"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#racquet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#racquet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#ramp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#ramp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#red -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#red">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#ride -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#ride">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#road -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#road">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#OutDoor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#rugby -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#rugby">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#2GoalGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#shirt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#shirt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#short -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#short">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Adjectives"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#sit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#sit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#skating -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#skating">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BoardGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#skirt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#skirt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#snooker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#snooker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#TargetGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#soccer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#soccer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#2GoalGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#stand_up -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#stand_up">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#surfing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#surfing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#BoardGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#tall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#tall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Adjectives"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#tennis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#tennis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#RacquetGame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#the -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#the">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Articles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#thin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#thin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Adjectives"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#three -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#three">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Numerical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#through -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#through">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Direction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#throw -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#throw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#to -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#to">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Direction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#towards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#towards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Direction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#trouser -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#trouser">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#tshirt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#tshirt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+        <hasA rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#yellow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#two -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#two">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Numerical"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#umpire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#umpire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#wave -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#wave">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#wear -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#wear">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+        <associatedWith rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#tshirt"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#white -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#white">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#with -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#with">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Agent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#woman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#woman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#wooden -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#wooden">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#yellow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#yellow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Color"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#61519 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#61519">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Image"/>
+        <connectedWith rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#playground"/>
+        <consistedOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#boy"/>
+        <consistedOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#park"/>
+        <consistedOf rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#throw"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#61521 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#61521">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Image"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#61524 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#61524">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Image"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#61525 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#61525">
+        <rdf:type rdf:resource="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Image"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Event"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Location"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Objects"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Person"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Preposition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Quality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/toshiba/ontologies/2019/8/untitled-ontology-9#Sport"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
